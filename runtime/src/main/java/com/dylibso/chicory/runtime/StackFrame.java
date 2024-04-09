@@ -22,6 +22,8 @@ public class StackFrame {
     public boolean doControlTransfer = false;
     public boolean isControlFrame = true;
 
+    public boolean shouldReturn = false;
+
     private final List<Instruction> code;
     private Instruction currentInstruction;
 
